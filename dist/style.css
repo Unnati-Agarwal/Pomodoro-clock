@@ -1,0 +1,48 @@
+body{
+  background:#6d6875;
+  font-family:'Poppins',sans-serif;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  min-height:100vh;
+}
+*{
+  box-sizing:border-box;
+}
+.flex{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.timer-container{
+  margin:15px;
+  font-size:13px;
+}
+button{
+  background:transparent;
+  cursor:pointer;
+  outline:none;
+  border:none;
+  margin:5px;
+  padding:10px;
+  font-size:20px;
+}
+.button-wrapper span{
+  font-size:40px;
+  margin:0px 10px;
+}
+.clock-container{
+  border:2px solid;
+  border-radius:40px;
+  display:inline-block;
+  padding:10px 40px;
+  
+}
+.clock-container span{
+  text-align:center;
+  font-size:60px;
+}
+.clock-container h1{
+  font-size:30px;
+}
